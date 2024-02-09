@@ -1,0 +1,143 @@
+.menuleft{
+    display: flex;
+    flex-direction: row;    
+    font-weight: 1000;
+    margin-right: 2px;
+    text-decoration: none;
+    color: black;
+    font-family: new2;
+    overflow: hidden;    
+    background-color: rgba(75, 162, 244, 0.924);;
+    margin: 0%;
+    
+    
+}
+.menuleft a{
+    text-decoration: none;
+    color: rgb(231, 255, 11);
+    margin: 0%;
+    background-color: rgba(75, 162, 244, 0.924);;
+    margin-left: 20%;
+    font-family: new2;
+    font-size: small;
+    
+
+    
+}
+.capçal{
+    position: sticky;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(75, 162, 244, 0.924);
+    min-width: inherit;
+     
+    
+    
+}
+body{
+    margin: 0%;
+    background-color: rgb(43, 146, 244);
+}
+.capçal img{
+    max-width: 200px;
+}
+.capçal p{
+    padding: 30px;
+    font-family: new;
+    color: rgb(231, 255, 11);
+    font-size: larger;
+}
+.yt iframe{
+    width: 1530px;
+    height: 720px;
+    border: 20px;
+    
+}
+
+.iframe1 iframe{
+    
+    width: 1519px;
+    height: 1025px;
+    
+    
+}
+.rescar h1{
+    font-family: new2;
+    color: rgb(231, 255, 11);
+}
+.norm p{
+    font-family: new3;
+    color: rgb(231, 255, 11);
+    margin-left: 10px;
+}
+.desf1 pre{
+    font-family: new3;
+    color: rgb(231, 255, 11);
+    margin-left: 10px;
+    font-size: small;
+}
+.desf1 h1{
+    font-family: new2;
+    color: rgb(231, 255, 11);
+}
+.norm h1{
+    font-family: new2;
+    color: rgb(231, 255, 11);
+
+}
+.norm h2{
+    font-family: new2;
+    color: rgb(231, 255, 11);
+}
+.yt p{
+    color:green;
+}
+.yt{
+    background-color: rgba(0, 127, 246, 0.924);
+    max-width: fit-content;
+    max-height: fit-content;
+    float: left;
+}
+.yt a{
+    text-decoration: none;
+    color: rgb(231, 255, 11);
+    margin: 0%;
+    background-color: rgba(75, 162, 244, 0.924);
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    font-family: new2;
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.frame{
+    position: fixed;
+    left: 430px;
+    top: 20px;
+}
+.frame iframe{
+    color: aliceblue;
+    position: fixed;
+    width: 1000px;
+    height: 500px;
+    border-radius: 1%;
+    border-color: rgba(75, 162, 244, 0.924);
+    
+}
+@font-face {
+    font-family: 'new';
+    src: url(fuentes/Faster.ttf);
+}
+@font-face {
+    font-family: 'new2';
+    src: url(fuentes/FastSS.ttf);
+}
+@font-face {
+    font-family: 'new3';
+    src: url(fuentes/FASTO___.TTF);
+}
+
