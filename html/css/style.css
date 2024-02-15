@@ -146,4 +146,8 @@ body{
     font-family: 'new3';
     src: url(fuentes/FASTO___.TTF);
 }
+.coments{
+    width: fit-content;
+    height: fit-content;
+}
 
