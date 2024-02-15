@@ -146,34 +146,21 @@ body{
     font-family: 'new3';
     src: url(fuentes/FASTO___.TTF);
 }
-.coments{
-    width: fit-content;
-    height: fit-content;
-}
-.bottom{
-    background-color: rgba(75, 162, 244, 0.924);
-    margin: 0%;
-    bottom: 0px;
-    width: 100%;
-    height: fit-content;
-}
-.redes a{
+.redes{
+    text-decoration: none;
     display: flex;
     flex-direction: column;
+    margin: 0.5rem;
+    padding: 0%;
+    bottom: 0px;
+    margin-left: 1rem;
+    width: 100%;
+    height: fit-content;
+    justify-content: space-around;
 }
-.redes-alonso{
-    list-style:none;
-}
-.item-link{
+.redes a{
     text-decoration: none;
     color: rgb(231, 255, 11);
-    margin: 0%;
-    background-color: rgba(75, 162, 244, 0.924);
-    margin-top: 5px;
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-bottom: 5px;
-    font-family: new2;
+    font-family: new3;
     font-size: small;
-
 }
