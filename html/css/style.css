@@ -41,7 +41,8 @@
     background-color: rgba(75, 162, 244, 0.924);
 }
 body{
-    margin: 0%;
+    width: 100%;
+    margin-bottom: 0%;
     background-color: rgb(43, 146, 244);
 }
 .capçal img{
@@ -146,14 +147,16 @@ body{
     font-family: 'new3';
     src: url(fuentes/FASTO___.TTF);
 }
+.bottom{
+    background-color: rgba(0, 127, 246, 0.924);
+    margin-bottom:0%;
+}
 .redes{
     text-decoration: none;
     display: flex;
-    flex-direction: column;
-    margin: 0.5rem;
+    flex-direction: column;    
     padding: 0%;
     bottom: 0px;
-    margin-left: 1rem;
     width: 100%;
     height: fit-content;
     justify-content: space-around;
@@ -163,4 +166,5 @@ body{
     color: rgb(231, 255, 11);
     font-family: new3;
     font-size: small;
+    margin-left: 0.5rem;
 }
